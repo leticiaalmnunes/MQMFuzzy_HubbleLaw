@@ -32,7 +32,11 @@ texto
 
 
 ## 📈 Demonstração do funcionamento
-<!--><img src="Imagens/GráficoFuzzy.png" height = "400px">
+<p align="center"> <img src="imagens/Lei_de_Hubble_final.png" height="250px"> </p>
+<p align="center">
+  <img src="imagens/Graph3D_LeiDeHubble.png" height="250px" style="display:inline-block; margin-right:25px;">
+  <img src="imagens/Diâmetro x Distância.png" height="250px" style="display:inline-block;">
+</p>
 
 
 ## ✍️ Autores
@@ -43,6 +47,7 @@ _**Letícia A. Nunes**, Ilum Escola de Ciência, Centro Nacional de Pesquisa em 
 
 [<img src="https://avatars.githubusercontent.com/u/63320963?v=4" width=80>](https://github.com/viniciuswasques)
 _**Vinícius F. Wasques**, Ilum Escola de Ciência, Centro Nacional de Pesquisa em Energia e Materiais_. Orientador.
+
 
 ## 📚 Referências
 [1] <b>GitHub do projeto original.</b> [Metodos-de-Quadrados-Minimos-Fuzzy](https://github.com/LuzMendes/Metodos-de-Quadrados-Minimos-Fuzzy) <br>
