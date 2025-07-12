@@ -3,7 +3,8 @@
 </div>
 
 <h1 align="center">Ajuste Linear Fuzzy da Lei de Hubble-Lemaître</h1>
-Nesse projeto, realizamos um ajuste linear fuzzy da lei de Hubble-Lemaître. As ferramentas aqui utilizadas foram desenvolvidas em um [projeto anterior](https://github.com/LuzMendes/Metodos-de-Quadrados-Minimos-Fuzzy)[1], com base no artigo (Pinto et al, 2022)[2]. Algumas modificações foram realizadas e as funções foram adicionadas em um script python para facilitar o uso das ferramentas.
+
+Nesse projeto, realizamos um ajuste linear fuzzy da lei de Hubble-Lemaître. As ferramentas aqui utilizadas foram desenvolvidas em um [projeto anterior](https://github.com/LuzMendes/Metodos-de-Quadrados-Minimos-Fuzzy) [1], com base no artigo (Pinto et al, 2022) [2]. Algumas modificações foram realizadas e as funções foram adicionadas em um script python para facilitar o uso das ferramentas.
 
 ## 🔗 Sumário
 - [Atualizações](#atualizações)
@@ -20,7 +21,7 @@ Adição das funções em um script; Criação dos dados fuzzy em python; Print 
 ## 🗂️ Arquivos
 <code>dados_Hubble.txt</code> - Dados extraídos do artigo [3] e disponibilizados em um repositório público [4]. <br>
 <code>data_Hubble.txt</code> - Dados pré-tratados. <br>
-<code>Hubble_fuzzy.txt</code> - Dados no formato de números fuzzy. O processo de transformação é apresentado no arquivo "_'Fuzzyficação' dos dados de Hubble.ipynb_". <br>
+<code>Hubble_fuzzy.txt</code> - Dados no formato de números fuzzy. <br>
 <code>'Fuzzyficação' dos dados de Hubble.ipynb</code> - Arquivo no qual é realizada a demonstração de como, nesse projeto, realizamos a transformação de dados reais em números fuzzy. <br>
 <code>Hubble-Lemaître - Ajuste Fuzzy.ipynb</code> - Realização do ajuste linear fuzzy com o uso das ferramentas desenvolvidas pelos autores. <br>
 <code>Fuzzy_functions.py</code> - Script em python com todas as funções desenvolvidas.
@@ -44,7 +45,7 @@ _**Letícia A. Nunes**, Ilum Escola de Ciência, Centro Nacional de Pesquisa em 
 _**Vinícius F. Wasques**, Ilum Escola de Ciência, Centro Nacional de Pesquisa em Energia e Materiais_. Orientador.
 
 ## 📚 Referências
-[1] <b> Método de Quadrados Mínimos Fuzzy.</b> [Sistemas lineares fuzzy e problemas de mínimos quadrados aplicados a dados longitudinais](https://www.ime.unicamp.br/~biomat/Bio32_art4.pdf) <br>
-[2] <b>GitHub do projeto original.</b> [Metodos-de-Quadrados-Minimos-Fuzzy](https://github.com/LuzMendes/Metodos-de-Quadrados-Minimos-Fuzzy) <br>
+[1] <b>GitHub do projeto original.</b> [Metodos-de-Quadrados-Minimos-Fuzzy](https://github.com/LuzMendes/Metodos-de-Quadrados-Minimos-Fuzzy) <br>
+[2] <b> Método de Quadrados Mínimos Fuzzy (Pinto et al, 2022).</b> [Sistemas lineares fuzzy e problemas de mínimos quadrados aplicados a dados longitudinais](https://www.ime.unicamp.br/~biomat/Bio32_art4.pdf) <br>
 [3] <b> Dados do Hubble Telescope (Wendy L. Freedman et al 2001).</b> [Final Results from the Hubble Space Telescope Key Project to Measure the Hubble Constant](https://iopscience.iop.org/article/10.1086/320638) <br>
 [4] <b>Repositório que disponibilizou os dados extraídos do artigo. (Castro L., 2024) </b> [Projeto-Final-Introducao-a-Computacao-em-Fisica](https://github.com/lrochacastro/Projeto-Final-Introducao-a-Computacao-em-Fisica)
