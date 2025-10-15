@@ -4,7 +4,9 @@
 
 <h1 align="center">Ajuste Linear Fuzzy da Lei de Hubble-Lemaître</h1>
 
-Nesse projeto, realizamos um ajuste linear fuzzy da lei de Hubble-Lemaître. As ferramentas aqui utilizadas foram desenvolvidas em um [projeto anterior](https://github.com/LuzMendes/Metodos-de-Quadrados-Minimos-Fuzzy) [1], com base no artigo (Pinto et al, 2022) [2]. Algumas modificações foram realizadas e as funções foram adicionadas em um script python para facilitar o uso das ferramentas.
+Nesse projeto, realizamos um ajuste linear fuzzy da lei de Hubble-Lemaître para apresentar no Congresso Brasileiro de Sistemas Fuzzy (CBSF).
+
+As ferramentas aqui utilizadas foram desenvolvidas em um [projeto anterior](https://github.com/LuzMendes/Metodos-de-Quadrados-Minimos-Fuzzy) [1], com base no artigo (Pinto et al, 2022) [2]. Algumas modificações foram realizadas visando melhorar a leitura do código e a sua eficiência. Por fim, as funções foram adicionadas em um script python para facilitar o uso das ferramentas.
 
 ## 🔗 Sumário
 - [Atualizações](#atualizações)
@@ -16,7 +18,7 @@ Nesse projeto, realizamos um ajuste linear fuzzy da lei de Hubble-Lemaître. As 
 
 
 ## 🔧 Atualizações
-Adição das funções em um script; Criação dos dados fuzzy em python; Print das funções encontradas; Gráficos automáticos; Análise da variação do diâmetro
+Redução do tamanho do código sem perdas de funcionalidade; Adição das funções em um script; Criação dos dados fuzzy a partir de dados reais em python; Print estilizado das funções de melhor ajuste encontradas; Funções para plot 2D e 3D automatizados; Análise da variação do diâmetro.
 
 ## 🗂️ Arquivos
 <code>dados_Hubble.txt</code> - Dados extraídos do artigo [3] e disponibilizados em um repositório público [4]. <br>
@@ -28,7 +30,11 @@ Adição das funções em um script; Criação dos dados fuzzy em python; Print 
 
 
 ### 💻 Como usar o código
-texto
+**Observação:** Com as teorias atuais, só é possível usar o Método de Quadrados Mínimos Fuzzy (MQMF) para ajustes lineares de funções exclusivamente do tipo $y = ax + b$.
+
+Para realizar um ajuste linear fuzzy usando o MQMF, baixe o script <code>Fuzzy_functions.py</code> e o importe usando o comando <code>import Fuzzy_functions</code> (sugestão: chame o script de `Ff`). Seguindo os mesmos passos do caderno <code>Hubble-Lemaître - Ajuste Fuzzy.ipynb</code> com o seu conjunto de dados, você obterá todas as possíveis soluções do sistema linear fuzzy e seus respectivos gráficos (sugestão: deixe todos os arquivos necessários na mesma pasta).
+
+Para consultar o que cada função do script faz, basta um `help(Fuzzy_functions)` ou `help(Ff)` 😉.
 
 
 ## 📈 Demonstração do funcionamento
