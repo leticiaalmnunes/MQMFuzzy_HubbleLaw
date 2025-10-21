@@ -20,6 +20,8 @@ As ferramentas aqui utilizadas foram desenvolvidas em um [projeto anterior](http
 ## 🔧 Atualizações
 Redução do tamanho do código sem perdas de funcionalidade; Adição das funções em um script; Criação dos dados fuzzy a partir de dados reais em python; Print estilizado das funções de melhor ajuste encontradas; Funções para plot 2D e 3D automatizados; Análise da variação do diâmetro.
 
+**Em breve:** Substituição da fatoração LU autoral pela função da biblioteca _Scipy_; padronização da documentação.
+
 ## 🗂️ Arquivos
 <code>dados_Hubble.txt</code> - Dados extraídos do artigo [3] e disponibilizados em um repositório público [4]. <br>
 <code>data_Hubble.txt</code> - Dados pré-tratados. <br>
